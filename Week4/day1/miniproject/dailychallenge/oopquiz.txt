@@ -1,10 +1,33 @@
 Answer the following questions
 
 What is a class?
+
+A class is a blueprint or template for creating objects. It defines attributes (data) and methods (functions) that its objects will have.
+
 What is an instance?
+
+An instance is a specific object created from a class. It's a concrete occurrence of a class with its own set of data. Each instance has unique values for its attributes while sharing the class's methods.
+
 What is encapsulation?
+
+The bundling of data and methods that operate on that data within a single unit (class). Hiding internal details and providing an interface to interact with the object.
+
 What is abstraction?
+
+Hiding complex implementation details and showing only necessary features. Focusing on what an object does rather than how it does it.
+
 What is inheritance?
+
+The ability of a class to inherit attributes and methods from another class.
+
 What is multiple inheritance?
+
+The ability of a class to inherit from multiple parent classes. Allows combining features from different classes.
+
 What is polymorphism?
+
+The ability of different classes to be treated as instances of the same class. 
+
 What is method resolution order or MRO?
+
+The order in which Python searches for methods and attributes in a class hierarchy.
