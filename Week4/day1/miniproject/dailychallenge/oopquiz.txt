@@ -1,0 +1,10 @@
+Answer the following questions
+
+What is a class?
+What is an instance?
+What is encapsulation?
+What is abstraction?
+What is inheritance?
+What is multiple inheritance?
+What is polymorphism?
+What is method resolution order or MRO?
