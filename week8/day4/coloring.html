@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coloring Squares</title>
+  <link rel="stylesheet" href="coloring.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <h1>Coloring Squares</h1>
+  <div class="toolbar">
+    <label>
+      <i class="fa-solid fa-paintbrush"></i>
+      <input type="color" id="colorPicker" value="#ff0000" />
+    </label>
+    <label>
+      <i class="fa-solid fa-pen-nib"></i>
+      <select id="penSize">
+        <option value="1">1x1</option>
+        <option value="2">2x2</option>
+        <option value="3">3x3</option>
+      </select>
+    </label>
+    <button id="eraserBtn" title="Eraser"><i class="fa-solid fa-eraser"></i></button>
+    <button id="rainbowBtn" title="Rainbow Mode"><i class="fa-solid fa-rainbow"></i></button>
+    <button id="gridBtn" title="Toggle Grid"><i class="fa-solid fa-border-all"></i></button>
+    <button id="clearBtn" title="Clear"><i class="fa-solid fa-trash"></i></button>
+  </div>
+  <div id="grid"></div>
+  <script src="coloring.js"></script>
+</body>
+</html> 

@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 1em; }
+p { max-width: 600px; margin: auto; }
+@media (max-width: 600px) {
+  p { font-size: 1em; }
+} 
